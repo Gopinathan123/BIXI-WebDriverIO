@@ -1,5 +1,5 @@
-describe("",()=>{
-    it("",async()=>{
+describe("DropDown",()=>{
+    it("should fetch all data from drop down menu",async()=>{
         await browser.url("https://www.facebook.com/");
         await browser.maximizeWindow();
         await browser.$("//a[@data-testid='open-registration-form-button']").click();
