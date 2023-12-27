@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 26 17:36:04 IST 2023","Tue Dec 26 17:36:07 IST 2023","3049","","validate approve pending Data with active customer Data","","","","should validate Customer Data in Pending customer",""
+"failed","Tue Dec 26 17:36:07 IST 2023","Tue Dec 26 17:36:09 IST 2023","1167","","validate approve pending Data with active customer Data","","","","should validate Customer Data in approve customer",""
+"passed","Wed Dec 27 09:48:52 IST 2023","Wed Dec 27 09:48:57 IST 2023","4558","","","","","","",""
