@@ -16,9 +16,10 @@ describe("",()=>{
         let s=ele_mon.toString();
         let spl=s.split('\n');
         console.log(spl[6]);
-        let year=(await $$("//select[@title='Year']")).map((eleyr)=>{return eleyr.getText()})
+        let year=await $$("//select[@title='Year']").map((eleyr)=>{return eleyr.getText()})
+        // console.log(year);
         let s1=year.toString();
-        console.log(s1);
+        // console.log(s1);
         let sp=s1.split('\n')
         console.log(sp);
     })
