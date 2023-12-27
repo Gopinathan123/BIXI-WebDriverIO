@@ -1,6 +1,7 @@
 describe("",()=>{
     it("",async()=>{
         await browser.url("https://www.facebook.com/");
+        await browser.maximizeWindow();
         await browser.$("//a[@data-testid='open-registration-form-button']").click();
         await $("//input[@name='firstname']").setValue("abc");
         await $("//input[@name='lastname']").setValue("xyz");
