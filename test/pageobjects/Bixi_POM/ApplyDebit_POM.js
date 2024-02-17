@@ -28,6 +28,5 @@ class ApplyDebit
         await this.accno_txt.setValue(accno);
         await this.subt_btn.click();
     }
-
 }
 export default new ApplyDebit();
