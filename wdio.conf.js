@@ -51,7 +51,12 @@ export const config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome'
+        browserName: 'chrome',
+        'goog:chormeOptions':{
+            prefs:{
+                'profile.default_content_setting_values.notifications':2
+            }
+        }
     }],
 
     //
